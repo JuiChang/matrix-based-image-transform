@@ -1,7 +1,7 @@
 import numpy as np
 import math
 import cv2
-from BlockTransform import dct, wht, dft
+from blockTransform import dct, wht, dft
 
 if __name__ == "__main__":
     img = cv2.imread("bridge.jpg", cv2.IMREAD_GRAYSCALE)

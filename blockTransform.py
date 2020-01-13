@@ -109,6 +109,12 @@ def dft(F, N):
     return (A.dot(F)).dot(A.T)
 
 
+# the combination version of the three functions above
+def transform(F, N, tf="dct"):
+    A = transformationMatrix(N, tf)
+    return (A.dot(F)).dot(A.T)
+
+
 # Set10 slide p24
 def generateDctBasis(N):
     basis = np.zeros((N, N, N, N)) # (x, y, u, v)
@@ -170,6 +176,14 @@ def reconstructWht(subImgCof, N):
 def reconstructDft(subImgCof, N):
     A = transformationMatrix(N, 'dft')
     A = np.conj(A)
+    return A.T.dot(subImgCof).dot(A)
+
+
+# the combination version of the three functions above
+def reconstruct(subImgCof, N, tf="dct"):
+    A = transformationMatrix(N, tf)
+    if tf == "dft":
+        A = np.conj(A)
     return A.T.dot(subImgCof).dot(A)
 
 

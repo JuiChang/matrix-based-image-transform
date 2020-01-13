@@ -1,7 +1,7 @@
 import numpy as np
 import math
 import cv2
-from BlockTransform import dft, generateDftBasis, reconstructDft
+from blockTransform import dft, generateDftBasis, reconstructDft
 
 if __name__ == "__main__":
     blockSize = 8

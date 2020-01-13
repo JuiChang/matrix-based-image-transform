@@ -1,7 +1,7 @@
 import numpy as np
 import math
 import cv2
-from BlockTransform import dct, generateDctBasis, reconstructDct, coefficientsVariance
+from blockTransform import dct, generateDctBasis, reconstructDct, coefficientsVariance
 
 if __name__ == "__main__":
     blockSize = 8
@@ -114,20 +114,12 @@ if __name__ == "__main__":
     # print(ni.sum())
     # yet: the case if ni.sum() > totalBits
 
-    print("before:\n", imgCof[:, :, -1, -1].mean())
-    print("before:\n", imgCof[:, :, -1, -1].max())
-    print("before:\n", imgCof[:, :, -1, -1].min())
+    # print("before:\n", imgCof[:, :, -1, -1].mean())
+    # print("before:\n", imgCof[:, :, -1, -1].max())
+    # print("before:\n", imgCof[:, :, -1, -1].min())
 
     for i in range(blockSize):
         for j in range(blockSize):
-            # cofMin = imgCof[:, :, i, j].min()
-            # cofMax = imgCof[:, :, i, j].max()
-            # cofRange = cofMax - cofMin
-            # if ni[i, j] == 0:
-            #     imgCof[:, :, i, j] = 0
-            #     continue
-            # intvlWidth = cofRange / 2**ni[i, j]
-            # imgCof[:, :, i, j] = cofMin + intvlWidth * ((imgCof[:, :, i, j] - cofMin) // intvlWidth + 0.5)
 
             cofMin = np.percentile(imgCof[:, :, i, j], 5)
             cofMax = np.percentile(imgCof[:, :, i, j], 95)
@@ -141,9 +133,9 @@ if __name__ == "__main__":
             tmpCof[tmpCof < cofMin] = cofMin
             imgCof[:, :, i, j] = cofMin + intvlWidth * ((tmpCof - cofMin) // intvlWidth + 0.5)
 
-    print("after:\n", imgCof[:, :, -1, -1].mean())
-    print("after:\n", imgCof[:, :, -1, -1].max())
-    print("after:\n", imgCof[:, :, -1, -1].min())
+    # print("after:\n", imgCof[:, :, -1, -1].mean())
+    # print("after:\n", imgCof[:, :, -1, -1].max())
+    # print("after:\n", imgCof[:, :, -1, -1].min())
 
     ### reconstruction
     reconsImg = np.zeros((H, W))

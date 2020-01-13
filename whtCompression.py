@@ -1,7 +1,7 @@
 import numpy as np
 import math
 import cv2
-from BlockTransform import wht, generateWhtBasis, reconstructWht
+from blockTransform import wht, generateWhtBasis, reconstructWht
 
 if __name__ == "__main__":
     blockSize = 8

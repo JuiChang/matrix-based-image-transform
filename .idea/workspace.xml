@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85958e2c-677f-4842-b548-1dfac4499314" name="Default Changelist" comment="" />
+    <list default="true" id="85958e2c-677f-4842-b548-1dfac4499314" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dctCompression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dftCompression.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/whtCompression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BlockTransform.py" beforeDir="false" afterPath="$PROJECT_DIR$/BlockTransform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImageCoding_DCT.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/ImageCoding_DCT.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bridge.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/bridge.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prog3.py" beforeDir="false" afterPath="$PROJECT_DIR$/prog3.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1W0ZE6xPG3wUTgUcRMWklCNlzcK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -16,11 +30,39 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.dctCompression">
+    <configuration name="BlockTransform" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Prog3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/BlockTransform.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Prog3" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -35,6 +77,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dctCompression" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Prog3" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/dctCompression.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="true" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -64,7 +128,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dctCompression" />
         <item itemvalue="Python.prog3" />
+        <item itemvalue="Python.BlockTransform" />
       </list>
     </recent_temporary>
   </component>
@@ -90,7 +156,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578288357881</updated>
-      <workItem from="1578288363531" duration="6440000" />
+      <workItem from="1578288363531" duration="40501000" />
     </task>
     <servers />
   </component>
@@ -102,44 +168,54 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="377" y="118" key="FileChooserDialogImpl/0.23.1280.777@0.23.1280.777" timestamp="1578289162800" />
-    <state width="1228" height="231" key="GridCell.Tab.0.bottom" timestamp="1578316447738">
+    <state width="1228" height="231" key="GridCell.Tab.0.bottom" timestamp="1578906678879">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1228" height="231" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1578316447738" />
-    <state width="1228" height="231" key="GridCell.Tab.0.center" timestamp="1578316447737">
+    <state width="1228" height="231" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1578906678879" />
+    <state width="1228" height="231" key="GridCell.Tab.0.center" timestamp="1578906678878">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1228" height="231" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1578316447737" />
-    <state width="1228" height="231" key="GridCell.Tab.0.left" timestamp="1578316447736">
+    <state width="1228" height="231" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1578906678878" />
+    <state width="1228" height="231" key="GridCell.Tab.0.left" timestamp="1578906678877">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1228" height="231" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1578316447736" />
-    <state width="1228" height="231" key="GridCell.Tab.0.right" timestamp="1578316447737">
+    <state width="1228" height="231" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1578906678877" />
+    <state width="1228" height="231" key="GridCell.Tab.0.right" timestamp="1578906678879">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1228" height="231" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1578316447737" />
-    <state width="1228" height="231" key="GridCell.Tab.1.bottom" timestamp="1578316447741">
+    <state width="1228" height="231" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1578906678879" />
+    <state width="1228" height="231" key="GridCell.Tab.1.bottom" timestamp="1578906678881">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1228" height="231" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1578316447741" />
-    <state width="1228" height="231" key="GridCell.Tab.1.center" timestamp="1578316447740">
+    <state width="1228" height="231" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1578906678881" />
+    <state width="1228" height="231" key="GridCell.Tab.1.center" timestamp="1578906678880">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1228" height="231" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1578316447740" />
-    <state width="1228" height="231" key="GridCell.Tab.1.left" timestamp="1578316447739">
+    <state width="1228" height="231" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1578906678880" />
+    <state width="1228" height="231" key="GridCell.Tab.1.left" timestamp="1578906678879">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1228" height="231" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1578316447739" />
-    <state width="1228" height="231" key="GridCell.Tab.1.right" timestamp="1578316447740">
+    <state width="1228" height="231" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1578906678879" />
+    <state width="1228" height="231" key="GridCell.Tab.1.right" timestamp="1578906678880">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state width="1228" height="231" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1578316447740" />
+    <state width="1228" height="231" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1578906678880" />
     <state x="40" y="23" key="SettingsEditor" timestamp="1578289173671">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="40" y="23" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1578289173671" />
+    <state x="249" y="124" width="781" height="574" key="find.popup" timestamp="1578655081742">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="249" y="124" width="781" height="574" key="find.popup/0.23.1280.777@0.23.1280.777" timestamp="1578655081742" />
+    <state x="221" y="23" key="search.everywhere.popup" timestamp="1578498736600">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="221" y="23" key="search.everywhere.popup/0.23.1280.777@0.23.1280.777" timestamp="1578498736600" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Prog3$prog3.coverage" NAME="prog3 Coverage Results" MODIFIED="1578316422583" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Prog3$prog3.coverage" NAME="prog3 Coverage Results" MODIFIED="1578321124605" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Prog3$dctCompression.coverage" NAME="dctCompression Coverage Results" MODIFIED="1578906663828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Prog3$BlockTransform.coverage" NAME="BlockTransform Coverage Results" MODIFIED="1578321105733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

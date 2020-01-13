@@ -1,7 +1,7 @@
 import numpy as np
 import math
 import cv2
-from BlockTransform import dct
+from BlockTransform import dct, wht, dft
 
 if __name__ == "__main__":
     img = cv2.imread("bridge.jpg", cv2.IMREAD_GRAYSCALE)
@@ -65,6 +65,8 @@ if __name__ == "__main__":
             block = padded_img[row_ind_1: row_ind_2, col_ind_1: col_ind_2]
 
             # apply 2D discrete cosine transform to the selected block
-            print("by cv2:\n", cv2.dct(block))
-            print("ours:\n", dct(block, block_size))
+            # print("by cv2:\n", cv2.dct(block))
+            # print("our dct:\n", dct(block, block_size))
+            # print("our wht:\n", wht(block, block_size))
+            print("our dft:\n", dft(block, block_size))
             exit()

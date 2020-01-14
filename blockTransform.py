@@ -2,13 +2,6 @@ import numpy as np
 import math
 
 
-# def generateDFTBasisBlocks(size=2):
-#     basisBlocks = np.zeros((size, size, size, size))
-#
-#
-#     return basisBlocks
-
-
 # textbook p487 Eq.7-83
 def dctInverseTransformationKernel(x, u, N):
     if u == 0:
@@ -185,10 +178,3 @@ def reconstruct(subImgCof, N, tf="dct"):
     if tf == "dft":
         A = np.conj(A)
     return A.T.dot(subImgCof).dot(A)
-
-
-def coefficientsVariance(imgCof):
-    """imgCof.shape should be (nbh, nbw, blockSize, blockSize)"""
-    # cof = imgCof.reshape((-1,) + imgCof.shape[-2:])
-    # print(cof.shape)
-    pass

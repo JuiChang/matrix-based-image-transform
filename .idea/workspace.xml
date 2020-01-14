@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85958e2c-677f-4842-b548-1dfac4499314" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/compress.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/compareVariance.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlockTransform.py" beforeDir="false" afterPath="$PROJECT_DIR$/blockTransform.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dctCompression.py" beforeDir="false" afterPath="$PROJECT_DIR$/dctCompression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dftCompression.py" beforeDir="false" afterPath="$PROJECT_DIR$/dftCompression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prog3.py" beforeDir="false" afterPath="$PROJECT_DIR$/prog3.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/reconsImg.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/reconsImg.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/whtCompression.py" beforeDir="false" afterPath="$PROJECT_DIR$/whtCompression.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blockTransform.py" beforeDir="false" afterPath="$PROJECT_DIR$/blockTransform.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/compress.py" beforeDir="false" afterPath="$PROJECT_DIR$/compress.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/bridge_hd_dct_8_0_8.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/output/bridge_hd_dct_8_1_8.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/output/bridge_hd_dct_8_1_8.bmp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +26,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -155,7 +154,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578288357881</updated>
-      <workItem from="1578288363531" duration="45145000" />
+      <workItem from="1578288363531" duration="62519000" />
     </task>
     <servers />
   </component>

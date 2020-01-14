@@ -52,34 +52,13 @@ if __name__ == "__main__":
     nbw = math.ceil(w / blockSize)
     nbw = np.int32(nbw)
 
-    # Pad the image, because sometime image size is not dividable to block size
-    # get the size of padded image by multiplying block size by number of blocks in height/width
-
+    ### Pad the image
     # height of padded image
     H = blockSize * nbh
-
     # width of padded image
     W = blockSize * nbw
-
-    # create a numpy zero matrix with size of H,W
     padded_img = np.zeros((H, W))
-
-    # copy the values of img into padded_img[0:h,0:w]
-    # for i in range(height):
-    #         for j in range(width):
-    #                 pixel = img[i,j]
-    #                 padded_img[i,j] = pixel
-
-    # or this other way here
     padded_img[0:height, 0:width] = img[0:height, 0:width]
-
-    # cv2.imwrite('uncompressed.bmp', np.uint8(padded_img))
-
-    # start encoding:
-    # divide image into block size by block size (here: 8-by-8) blocks
-    # To each block apply 2D discrete cosine transform
-    # reorder DCT coefficients in zig-zag order
-    # reshaped it back to block size by block size (here: 8-by-8)
 
     # the last two dimension of imgCof are corresponding to u, v, respectively
     if args.transform == 'dft':
@@ -89,11 +68,9 @@ if __name__ == "__main__":
     print("nbh:", nbh, " nbw:", nbw)
 
     for i in range(nbh):
-
         # Compute start and end row index of the block
         row_ind_1 = i * blockSize
         row_ind_2 = row_ind_1 + blockSize
-
         for j in range(nbw):
             # Compute start & end column index of the block
             col_ind_1 = j * blockSize

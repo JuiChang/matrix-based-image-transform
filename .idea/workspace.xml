@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85958e2c-677f-4842-b548-1dfac4499314" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/compareVariance.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blockTransform.py" beforeDir="false" afterPath="$PROJECT_DIR$/blockTransform.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/compress.py" beforeDir="false" afterPath="$PROJECT_DIR$/compress.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/bridge_hd_dct_8_0_8.bmp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/output/bridge_hd_dct_8_1_8.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/output/bridge_hd_dct_8_1_8.bmp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report.docx" beforeDir="false" afterPath="$PROJECT_DIR$/report.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +152,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578288357881</updated>
-      <workItem from="1578288363531" duration="62519000" />
+      <workItem from="1578288363531" duration="63546000" />
     </task>
     <servers />
   </component>
@@ -202,10 +200,10 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="40" y="23" key="SettingsEditor/0.23.1280.777@0.23.1280.777" timestamp="1578289173671" />
-    <state x="249" y="124" width="781" height="574" key="find.popup" timestamp="1578655081742">
+    <state x="249" y="124" width="781" height="574" key="find.popup" timestamp="1578996225733">
       <screen x="0" y="23" width="1280" height="777" />
     </state>
-    <state x="249" y="124" width="781" height="574" key="find.popup/0.23.1280.777@0.23.1280.777" timestamp="1578655081742" />
+    <state x="249" y="124" width="781" height="574" key="find.popup/0.23.1280.777@0.23.1280.777" timestamp="1578996225733" />
     <state x="221" y="23" key="search.everywhere.popup" timestamp="1578498736600">
       <screen x="0" y="23" width="1280" height="777" />
     </state>

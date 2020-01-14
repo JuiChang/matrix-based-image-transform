@@ -81,19 +81,19 @@ def transformationMatrix(N, tf='dct'):
     return A
 
 
-# textbook p470 Eq.7-35
+# textbook p470 Eq.7-35, not used
 def dct(F, N):
     A = transformationMatrix(N, 'dct')
     return (A.dot(F)).dot(A.T)
 
 
-# textbook p470 Eq.7-35
+# textbook p470 Eq.7-35, not used
 def wht(F, N):
     A = transformationMatrix(N, 'wht')
     return (A.dot(F)).dot(A.T)
 
 
-# textbook p473 Eq.7-41
+# textbook p473 Eq.7-41, not used
 def dft(F, N):
     A = transformationMatrix(N, 'dft')
     # not sure if the textbook has no mistake
@@ -108,7 +108,7 @@ def transform(F, N, tf="dct"):
     return (A.dot(F)).dot(A.T)
 
 
-# Set10 slide p24
+# Set10 slide p24, not used
 def generateDctBasis(N):
     basis = np.zeros((N, N, N, N)) # (x, y, u, v)
     tmp1D = np.zeros((N, N))
@@ -123,7 +123,7 @@ def generateDctBasis(N):
     return basis
 
 
-# textbook p499 Eq.7-107 "separable"
+# textbook p499 Eq.7-107 "separable", not used
 def generateWhtBasis(N):
     basis = np.zeros((N, N, N, N)) # (x, y, u, v)
     tmp1D = np.zeros((N, N))
@@ -137,7 +137,7 @@ def generateWhtBasis(N):
                     basis[x, y, u, v] = tmp1D[x, u] * tmp1D[y, v]
     return basis
 
-
+# not used
 def generateDftBasis(N):
     basis = np.zeros((N, N, N, N), dtype=complex) # (x, y, u, v)
     tmp1D = np.zeros((N, N), dtype=complex)
@@ -153,19 +153,19 @@ def generateDftBasis(N):
     return basis
 
 
-# textbook p470 Eq.7-36
+# textbook p470 Eq.7-36, not used
 def reconstructDct(subImgCof, N):
     A = transformationMatrix(N, 'dct')
     return A.T.dot(subImgCof).dot(A)
 
 
-# textbook p470 Eq.7-36
+# textbook p470 Eq.7-36, not used
 def reconstructWht(subImgCof, N):
     A = transformationMatrix(N, 'wht')
     return A.T.dot(subImgCof).dot(A)
 
 
-# textbook p473 Eq.7-42
+# textbook p473 Eq.7-42, not used
 def reconstructDft(subImgCof, N):
     A = transformationMatrix(N, 'dft')
     A = np.conj(A)
